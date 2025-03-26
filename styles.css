@@ -1,0 +1,112 @@
+ /* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef; /* Fondo de la página */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de la barra lateral (sidebar) */
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    background-color: #343a40; /* Color oscuro para el sidebar */
+    color: #fff; /* Texto blanco */
+    box-shadow: 4px 0 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding-top: 20px;
+}
+
+.sidebar .nav-link {
+    display: block;
+    padding: 12px 80px 20px;
+    color: #ddd; /* Color de texto */
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transición suave para hover */
+}
+
+.sidebar .nav-link1 {
+    display: block;
+    padding: 370px 20px;
+    color: #050505; /* Color de texto */
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transición suave para hover */
+}
+
+.sidebar .nav-link:hover {
+    background-color: #495057; /* Color al pasar el ratón */
+    color: #fff; /* Texto blanco cuando pasa el ratón */
+}
+
+.sidebar .nav-link.active {
+    background-color: #007bff; /* Color para el enlace activo */
+    color: #fff;
+}
+
+/* Estilo del cuerpo de las tarjetas */
+.card-body {
+    background-color: #f8f9fa; /* Fondo claro para las tarjetas */
+    padding: 30px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo del título de las tarjetas */
+.card-title {
+    font-size: 1.4rem;
+    font-weight: 600; /* Peso de fuente más destacado */
+    color: #343a40; /* Color de texto oscuro */
+    margin-bottom: 20px;
+}
+
+/* Estilos de los botones */
+.btn {
+    background-color: #007bff; /* Color principal del botón */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    width: 100%;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Color de hover */
+    cursor: pointer;
+}
+
+/* Estilos de los inputs */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #007bff; /* Color de borde cuando está enfocado */
+    outline: none;
+}
+
+/* Estilo de la página */
+.container {
+    margin-left: 270px; /* Deja espacio para el sidebar */
+    padding: 30px;
+}
+
+/* Añadir algo de espacio en el layout */
+.row {
+    margin-top: 20px;
+}
+
